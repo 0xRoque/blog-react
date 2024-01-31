@@ -15,7 +15,11 @@ function RootPage() {
           marginBottom: "2rem",
         }}
       >
-        <select value={selectValue} onChange={handleSelect}>
+        <select
+          style={{ background: "#D4D4D4" }}
+          value={selectValue}
+          onChange={handleSelect}
+        >
           <option value="newest">Mais recente</option>
           <option value="oldest">Mais antiga</option>
         </select>

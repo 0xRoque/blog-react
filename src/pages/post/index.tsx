@@ -1,7 +1,7 @@
 import { Container } from "reactstrap";
-import { PostDetails } from "../../components/postDetails";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { PostDetails } from "../../components/postdetails";
 interface PostProps {
   id: string;
   title: string;
